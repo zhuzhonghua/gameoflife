@@ -10,3 +10,13 @@ int SimpleRand::getIntRnd()
 {
   return _rndInt(_randEngine);
 }
+
+Point::Point()
+{
+  init(0,0);
+}
+
+void Point::init(float xp, float yp)
+{
+  x=xp,y=yp;
+}
